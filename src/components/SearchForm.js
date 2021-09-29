@@ -27,7 +27,13 @@ function SearchForm({ setSearchTerm }) {
      ></TextInput>
     </FormField>
     <Box direction='row' justify='between'>
-     <Button type='reset' label='Reset' />
+     <Button
+      type='reset'
+      label='Reset'
+      onClick={() => {
+       setSearchTerm('')
+      }}
+     />
      <Button type='submit' label='Find your code!' primary />
     </Box>
    </Form>
