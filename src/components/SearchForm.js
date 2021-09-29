@@ -9,14 +9,15 @@ function SearchForm() {
    align='center'
   >
    <Form
-    onSubmit={({ value }) => {
-     console.log(value)
+    onSubmit={(e) => {
+     console.log(e.target.search.value.trim())
     }}
    >
     <FormField
      label="What's your primary business activity?"
      name='search'
      htmlFor='search'
+     required
     >
      <TextInput
       id='search'
