@@ -8,9 +8,21 @@ function SearchForm() {
    justify='center'
    align='center'
   >
-   <Form>
-    <FormField label="What's your primary business activity?">
-     <TextInput placeholder='e.g. fishing'></TextInput>
+   <Form
+    onSubmit={({ value }) => {
+     console.log(value)
+    }}
+   >
+    <FormField
+     label="What's your primary business activity?"
+     name='search'
+     htmlFor='search'
+    >
+     <TextInput
+      id='search'
+      name='search'
+      placeholder='e.g. fishing'
+     ></TextInput>
     </FormField>
     <Box direction='row' justify='between'>
      <Button type='reset' label='Reset' />
