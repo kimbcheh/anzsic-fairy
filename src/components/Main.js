@@ -1,11 +1,14 @@
 import MainHeader from './MainHeader'
+import SearchForm from './SearchForm'
 import MainFooter from './MainFooter'
+import { useState } from 'react'
 
 function Main() {
+ const [searchTerm, setSearchTerm] = useState('')
  return (
   <div>
    <MainHeader />
-   <div>Content Placeholder</div>
+   <SearchForm setSearchTerm={setSearchTerm} />
    <MainFooter />
   </div>
  )
