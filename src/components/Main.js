@@ -1,11 +1,12 @@
 import MainHeader from './MainHeader'
+import SearchForm from './SearchForm'
 import MainFooter from './MainFooter'
 
 function Main() {
  return (
   <div>
    <MainHeader />
-   <div>Content Placeholder</div>
+   <SearchForm />
    <MainFooter />
   </div>
  )
