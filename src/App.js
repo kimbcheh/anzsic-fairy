@@ -1,5 +1,6 @@
 import './App.css'
 import { Grommet } from 'grommet'
+import Main from './components/Main'
 
 const theme = {
  global: {
@@ -12,7 +13,7 @@ const theme = {
 function App() {
  return (
   <Grommet theme={theme}>
-   <p>ANZSIC Fairy</p>
+   <Main />
   </Grommet>
  )
 }
