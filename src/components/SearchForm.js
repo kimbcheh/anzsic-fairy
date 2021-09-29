@@ -1,6 +1,6 @@
 import { Box, Button, Form, FormField, TextInput } from 'grommet'
 
-function SearchForm() {
+function SearchForm({ setSearchTerm }) {
  return (
   <Box
    margin='medium'
@@ -10,7 +10,8 @@ function SearchForm() {
   >
    <Form
     onSubmit={(e) => {
-     console.log(e.target.search.value.trim())
+     let trimmedSearch = e.target.search.value.trim()
+     setSearchTerm(trimmedSearch)
     }}
    >
     <FormField
