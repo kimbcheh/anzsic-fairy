@@ -1,9 +1,9 @@
-import Header from './Header'
+import MainHeader from './MainHeader'
 
 function Main() {
  return (
   <div>
-   <Header />
+   <MainHeader />
   </div>
  )
 }

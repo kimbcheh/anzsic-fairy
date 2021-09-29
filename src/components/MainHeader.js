@@ -1,4 +1,4 @@
-function Header() {
+function MainHeader() {
  return (
   <div>
    <p>Header</p>
@@ -6,4 +6,4 @@ function Header() {
  )
 }
 
-export default Header
+export default MainHeader
