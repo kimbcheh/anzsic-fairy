@@ -1,10 +1,19 @@
 import './App.css'
+import { Grommet } from 'grommet'
+
+const theme = {
+ global: {
+  font: {
+   family: 'Poppins',
+  },
+ },
+}
 
 function App() {
  return (
-  <div>
+  <Grommet theme={theme}>
    <p>ANZSIC Fairy</p>
-  </div>
+  </Grommet>
  )
 }
 
