@@ -1,7 +1,9 @@
+import Header from './Header'
+
 function Main() {
  return (
   <div>
-   <p>Main</p>
+   <Header />
   </div>
  )
 }
