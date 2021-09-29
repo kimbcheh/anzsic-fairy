@@ -5,6 +5,7 @@ function Main() {
  return (
   <div>
    <MainHeader />
+   <div>Content Placeholder</div>
    <MainFooter />
   </div>
  )
