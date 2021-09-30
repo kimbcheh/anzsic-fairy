@@ -1,9 +1,12 @@
 import { Accordion, AccordionPanel, Anchor, Box, Text } from 'grommet'
+import { CircleQuestion } from 'grommet-icons'
 
 function MainAccordion() {
  return (
   <Box margin='medium' direction='column' justify='center' align='center'>
-   <Text size='xlarge'>Frequently Asked Questions</Text>
+   <Text size='xlarge'>
+    <CircleQuestion color='brand' /> Frequently Asked Questions
+   </Text>
    <Accordion fill='true'>
     <AccordionPanel label='Is ANZSIC Fairy an official tool?'>
      <Box pad='small'>
