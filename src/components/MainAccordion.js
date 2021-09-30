@@ -1,8 +1,15 @@
+import { Box, Text } from 'grommet'
+
 function MainAccordion() {
  return (
-  <div>
-   <p>Accordion Placeholder</p>
-  </div>
+  <Box
+   margin='large'
+   direction='row-responsive'
+   justify='center'
+   align='center'
+  >
+   <Text size='xlarge'>Frequently Asked Questions</Text>
+  </Box>
  )
 }
 
